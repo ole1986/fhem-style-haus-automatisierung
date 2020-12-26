@@ -7,7 +7,7 @@ Mit diesem Style wird die FHEM-Oberfläche etwas anschaulicher - "Look and Feel"
 1. Hinzufügen des neuen Themes in Version 2
 
 ```
-update add https://raw.githubusercontent.com/klein0r/fhem-style-haus-automatisierung/version-2/controls_ha_theme.txt
+update add https://raw.githubusercontent.com/ole1986/fhem-style-haus-automatisierung/master/controls_ha_theme.txt
 update check ha_theme
 update all ha_theme
 ```
