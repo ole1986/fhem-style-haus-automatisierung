@@ -8,7 +8,7 @@ find ./www -type f \( ! -iname ".*" \) -print0 | while IFS= read -r -d '' file;
 do
     date=$(stat -c '%y' $file)
     size=$(stat -c '%s' $file)
-    echo  "UPD $date $size $file" >> controls_ha_theme.txt
+    echo  "UPD ${date:0:10}_${date:11:8} $size ${file//.\//}" >> controls_ha_theme.txt
 done
 
 NEXT=$(date +%F -d "+1 day")
