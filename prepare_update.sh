@@ -12,12 +12,12 @@ do
 done
 
 NEXT=$(date +%F -d "+1 day")
-echo "CHANGELOG" > CHANGELOG
-echo "----------------------" >> CHANGELOG
+echo "CHANGELOG" > CHANGED
+echo "----------------------" >> CHANGED
 git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ; do
     echo
-    echo [$DATE] >> CHANGELOG
-    git log --no-merges --format=" * %s" --since="$DATE 00:00:00" --until="$NEXT 00:00:00" >> CHANGELOG
-    echo "" >> CHANGELOG
+    echo [$DATE] >> CHANGED
+    git log --no-merges --format=" * %s" --since="$DATE 00:00:00" --until="$NEXT 00:00:00" >> CHANGED
+    echo "" >> CHANGED
     NEXT=$DATE
 done

@@ -1,6 +1,9 @@
 CHANGELOG
 ----------------------
 [2020-12-26]
+ * Rename CHANGELOG to CHANGED again
+ * Updated README.m
+ * Updated controls_ha_theme.txt and added a contribute.sh
  * Responsive design
 
 [2020-12-25]
