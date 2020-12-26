@@ -11,6 +11,13 @@ do
     echo  "UPD $date $size $file" >> controls_ha_theme.txt
 done
 
-# Append to changelog
-changes=$(git log -n 10 --reverse --pretty="format:- %s")
-echo -e "$(date +'%Y-%m-%d')\n$changes\n$(cat CHANGELOG)" > CHANGELOG
+NEXT=$(date +%F -d "+1 day")
+echo "CHANGELOG" > CHANGELOG
+echo "----------------------" >> CHANGELOG
+git log --no-merges --format="%cd" --date=short | sort -u -r | while read DATE ; do
+    echo
+    echo [$DATE] >> CHANGELOG
+    git log --no-merges --format=" * %s" --since="$DATE 00:00:00" --until="$NEXT 00:00:00" >> CHANGELOG
+    echo "" >> CHANGELOG
+    NEXT=$DATE
+done

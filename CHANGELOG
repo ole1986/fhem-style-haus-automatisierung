@@ -1,43 +1,152 @@
-2020-12-25
-- Update _content.scss
-- Neue CSS-Dateien nach Pull-Requests
-- Neue Version
-- 2.16
-- Bugfix klein0r/Issue130
-- Bugfix klein0r/Issue135
-- Responsive design
-- Not sure about the indention of window scroll event. Lets keep things visible
-- Compass is not necessary needed
-- added mobile preview image
-2020-12-25
-- Update _content.scss
-- Neue CSS-Dateien nach Pull-Requests
-- Neue Version
-- 2.16
-- Bugfix klein0r/Issue130
-- Bugfix klein0r/Issue135
-- Responsive design
-- Not sure about the indention of window scroll event. Lets keep things visible
-- Compass is not necessary needed
-- added mobile preview image
-2020-12-25
+CHANGELOG
+----------------------
+[2020-12-26]
+ * Responsive design
 
-2020-12-25
+[2020-12-25]
+ * Bugfix klein0r/Issue135
+ * Bugfix klein0r/Issue130
+ * 2.16
+ * Neue Version
+ * Neue CSS-Dateien nach Pull-Requests
+ * Update _content.scss
+ * Update README.md
+ * Linkcolor in MOTD angepasst
+ * White-Space Wrap erlaubt...
+ * Bugfix Fehlerhafte Darstellung in Firefox: weblink cmdList
+ * SVG Ticks sichtbar gemacht
+ * Release 2.15
+ * 2.15
+ * Update _content.scss
+ * Korrektur <pre> Element
+ * Update _content.scss
+ * fix for issue #106 #101
+ * SVG: graph/plot colors
+ * Line breaks in SVG "Example lines for input:"
+ * List schlecht lesbar - fixes #110
+ * testSetMagic wieder raus
+ * testSetMagic
+ * Mixins, motd
+ * 2.14
+ * Floorplans
+ * Floorplans
+ * AttrGroups v2
+ * AttrGroups
+ * remotecontrol
+ * 2.13
+ * Dashboard resizer
+ * Dashboard fixes
+ * 2.12
+ * Columns
+ * Fixes #102
+ * Readme
+ * LICENSE and preview
+ * 2.11 CHANGELOG
+ * 2.11
+ * Update-Script
+ * SVG
+ * DEL gibt es gar nicht
+ * Unterraeume nicht einruecken
+ * 2.10
+ * Search und Popup-Design
+ * Search und Popup-Design
+ * Search und Popup-Design
+ * Ui Popup Styles
+ * Edit files
+ * Kleinkram
+ * Mehrzeiliges Input Popup
+ * JS-Logik von FHEM nutzen
+ * HSVp inline wird nicht korrekt angezeigt
+ * 2.9
+ * Minor fixes
+ * Custom device styles
+ * devSpecHelp
+ * Weekprofile
+ * 2.8
+ * Head automatisch verstecken
+ * Weitere Fixes am Menu und SVG
+ * Kleine Fehlerbehebungen
+ * Version 2.7
+ * Merge fixes
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Style
+ * Update _base.scss
+ * Readme Update
+ * 2.6
+ * Neighbor Map ZWave
+ * DOIF-Tools
+ * SVGs mit Hintergrund
+ * CSS
+ * Update 2.5
+ * Version 2.5
+ * Update _base.scss
+ * 2.4
+ * Kleinere Fixes
+ * Version 2.2
+ * Version 2.2
+ * Plots / SVG color fixes
+ * JS-Hint wenn nicht installiert
+ * Neue Bilder
+ * Verschieben von Dialogboxen #4
+ * Slider repariert, changed color
+ * Slider, Version 2.1
+ * Readme update
+ * prepare update
+ * Neue Struktur
+ * Commandref
+ * Kleinere fixes
+ * Kleinere Fixes ZWave
+ * JS Spielerei
+ * Minor fixes
+ * content styles
+ * SVG Styles
+ * added other styles
+ * Menu fixes
+ * Base Layout
+ * Base 2.0
 
-2020-12-25
+[2018-06-27]
+ * Update README.md
 
-2020-12-25
+[2016-12-28]
+ * Navigation icons + arrow
+ * version 1.1
+ * Readme
+ * device specific help
 
-2020-12-25
+[2016-12-04]
+ * Console styles
 
-2020-05-05
-- Linkcolor in MOTD angepasst
-- Update README.md
-- Update _content.scss
-- Merge pull request #124 from mackshot/patch-2
-- Merge pull request #132 from mackshot/patch-7
-- Merge pull request #126 from mackshot/patch-3
-- Merge pull request #127 from mackshot/patch-4
-- Merge pull request #129 from mackshot/patch-5
-- Neue CSS-Dateien nach Pull-Requests
-- Neue Version
+[2016-11-29]
+ * Fixed menu
+
+[2016-11-28]
+ * Dashboard styles
+ * Dashboard styles
+
+[2016-05-16]
+ * Update README.md
+ * Fixes
+
+[2016-05-09]
+ * Init
+
