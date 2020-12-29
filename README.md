@@ -27,7 +27,7 @@ attr WEB codemirrorParam { "theme": "blackboard", "lineNumbers":true, "lineWrapp
 attr WEB roomIcons Save.config:message_attention
 ```
 
-4. Konfiguration speichern und Seite neu laden
+4. Konfiguration speichern und `shutdown restart` ausführen
 
 ## Smart-Home-Icons:
 
