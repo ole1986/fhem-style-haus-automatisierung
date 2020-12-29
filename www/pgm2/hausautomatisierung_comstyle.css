@@ -124,7 +124,7 @@ input[type=text] {
   left: 0;
   padding: 20px;
   position: fixed;
-  top: 0px;
+  top: 50px;
   width: 100%;
   z-index: 99999;
   opacity: 0.8;
@@ -195,6 +195,7 @@ select {
 #content pre.log {
   background: #000;
   padding: 10px;
+  white-space: pre-line;
 }
 #content > pre {
   background: #fff;
@@ -399,7 +400,6 @@ select {
 #content table {
   width: 100%;
   border-collapse: collapse;
-  max-width: 1000px;
 }
 #content table th {
   font-weight: bold;
@@ -489,7 +489,6 @@ select {
   padding: 5px;
 }
 #content table .ex {
-  max-width: 1000px;
   white-space: pre;
 }
 #content table input + select,
@@ -610,9 +609,6 @@ select {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-#content .CodeMirror {
-  max-width: 1000px;
 }
 #content #edit input[type=submit].psc {
   border: 1px #e56524 solid;
@@ -796,11 +792,8 @@ select {
 }
 
 #console {
-  bottom: 0;
   overflow: auto;
   white-space: nowrap;
-  position: absolute;
-  top: 2em;
   width: 100%;
 }
 
@@ -1259,7 +1252,6 @@ textarea#console {
   padding: 5px 15px;
   bottom: 0;
   left: 20px;
-  min-width: 260px;
   border: 1px #e56524 dashed;
   border-bottom: none;
   line-height: 25px;
@@ -1335,6 +1327,7 @@ svg:not([fill]):not(.jssvg) {
 }
 .ui-dialog .CodeMirror {
   width: auto;
+  height: 200px !important;
 }
 .ui-dialog .slider {
   width: 350px;

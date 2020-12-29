@@ -123,7 +123,7 @@ input[type=text] {
   left: 0;
   padding: 20px;
   position: fixed;
-  top: 0px;
+  top: 50px;
   width: 100%;
   z-index: 99999;
   opacity: 0.8;
@@ -185,12 +185,12 @@ body {
 }
 
 #backimg {
-  background: #fff;
+  /*background: $brightest-background;
   position: absolute;
   top: 10px;
   left: 10px;
   width: auto !important;
-  height: auto !important;
+  height: auto !important;*/
 }
 
 #fpmenu.fp_arrange {

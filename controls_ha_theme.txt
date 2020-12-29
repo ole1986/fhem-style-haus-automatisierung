@@ -11,10 +11,10 @@ UPD 2020-12-26_11:30:42 370 www/images/hausautomatisierung_com/hamburger.svg
 UPD 2020-12-25_17:48:50 2727 www/images/hausautomatisierung_com/plug.svg
 UPD 2020-12-25_17:48:50 2274 www/images/hausautomatisierung_com/tv.svg
 UPD 2020-12-25_17:48:50 6623 www/images/hausautomatisierung_com/weather.svg
-UPD 2020-12-26_11:31:05 10214 www/pgm2/hausautomatisierung_com.js
-UPD 2020-12-26_11:31:05 5299 www/pgm2/hausautomatisierung_comfloorplanstyle.css
-UPD 2020-12-26_11:31:05 4401 www/pgm2/hausautomatisierung_comsvg_style.css
-UPD 2020-12-26_11:31:05 37760 www/pgm2/hausautomatisierung_comstyle.css
+UPD 2020-12-29_10:40:09 10259 www/pgm2/hausautomatisierung_com.js
+UPD 2020-12-29_10:24:47 5321 www/pgm2/hausautomatisierung_comfloorplanstyle.css
+UPD 2020-12-29_08:37:48 4401 www/pgm2/hausautomatisierung_comsvg_style.css
+UPD 2020-12-29_09:00:54 37659 www/pgm2/hausautomatisierung_comstyle.css
 UPD 2020-12-25_17:48:57 2996 www/pgm2/hausautomatisierung_comsvg_defs.svg
 UPD 2020-12-25_17:48:49 81828 www/hausautomatisierung-com/images/bg_wrapper.jpg
 UPD 2020-12-25_17:48:49 20144 www/hausautomatisierung-com/images/haus_automatisierung.png
