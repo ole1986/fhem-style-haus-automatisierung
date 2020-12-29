@@ -40,6 +40,7 @@ function initResponsive() {
         $('body > form').css('width', '100%');
         showHeadline();
     } else {
+        $('body').css('flex-wrap', 'unset');
         $('#content').css('padding-top', '135px');
     }
 }
@@ -63,7 +64,7 @@ function showHeadline() {
 
 jQuery(document).ready(function ($) {
 
-    var themeVersion = '2.17';
+    var themeVersion = '2.18';
     
     initResponsive();
 

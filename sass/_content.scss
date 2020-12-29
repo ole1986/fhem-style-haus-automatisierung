@@ -51,6 +51,7 @@
         &.log {
             background: #000;
             padding: 10px;
+            white-space: pre-line;
         }
     }
 
@@ -285,7 +286,6 @@
     table {
         width: 100%;
         border-collapse: collapse;
-        max-width: $maxWidthContent;
 
         th {
             font-weight: bold;
@@ -403,7 +403,6 @@
         }
 
         .ex {
-            max-width: $maxWidthContent;
             white-space: pre;
         }
 
@@ -552,10 +551,6 @@
         text-align: center;
         margin-top: 10px;
         margin-bottom: 10px;
-    }
-
-    .CodeMirror {
-        max-width: $maxWidthContent;
     }
 
     #edit {
