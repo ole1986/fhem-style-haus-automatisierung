@@ -11,8 +11,23 @@ body {
 }
 
 #logo {
-    top: 0;
-    right: 40px;
+    bottom: 0px;
+    right: 280px;
+    width: 270px;
+    height: 60px;
+    z-index: 10000;
+    background-color: #000000bf;
+    padding: 0.3em;
+    border-radius: 10px;
+    background-size: contain;
+}
+
+#logo .theme-version {
+    left: 10px;
+}
+
+#logo .clock {
+    right: 10px;
 }
 
 #hdr {
@@ -47,12 +62,12 @@ body {
 }
 
 #backimg {
-    /*background: $brightest-background;
-    position: absolute;
+    background: #ffffff8a;
+    /*position: absolute;
     top: 10px;
-    left: 10px;
+    left: 10px;*/
     width: auto !important;
-    height: auto !important;*/
+    height: auto !important;
 }
 
 #fpmenu.fp_arrange {
@@ -110,6 +125,7 @@ body {
 .devicename {
     > td {
         font-weight: bold;
+        text-align: center;
     }
 }
 
