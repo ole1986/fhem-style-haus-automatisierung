@@ -1,6 +1,12 @@
 CHANGELOG
 ----------------------
+[2021-01-01]
+ * Versio 2.19
+ * Slightly improve floorplan style
+
 [2020-12-29]
+ * Updated README.md
+ * Updated stylesheets t match version 2.18
  * Updated README.md and added a CONTRIBUTE.md
  * cleanuo and proper positioning
 

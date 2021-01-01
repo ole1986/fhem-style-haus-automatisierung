@@ -64,7 +64,7 @@ function showHeadline() {
 
 jQuery(document).ready(function ($) {
 
-    var themeVersion = '2.18';
+    var themeVersion = '2.19';
     
     initResponsive();
 
