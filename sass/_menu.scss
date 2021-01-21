@@ -72,6 +72,7 @@
 
         .menu_Save_config {
             font-weight: bold;
+            position: relative;
         }
 
         .custom-menu-entry {
@@ -89,12 +90,13 @@
         }
 
         #saveCheck {
-            margin-top: -33px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
             background: transparent;
             border-right: 5px $primary-color solid;
             border-left: 5px $primary-color solid;
             text-indent: -9999px;
-            margin-left: 220px;
         }
 
         tr.sel {
@@ -137,7 +139,7 @@
 
 @media (min-width: 799px) {
     #menuScrollArea {
-        /*max-width: 20%;*/
+        min-width: 300px;
     }
 }
 
