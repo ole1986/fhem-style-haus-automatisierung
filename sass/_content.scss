@@ -11,6 +11,10 @@
     color: unset;
 }
 
+body > form {
+    flex-grow: 1;
+}
+
 #content {
     margin-left: 1em;
     margin-right: 1em;
@@ -72,9 +76,15 @@
         }
 
         td.first-table-column {
-            /*width: 25%;*/
+            width: 25%;
             border-right: 2px $primary-color solid;
             line-height: 29px;
+        }
+        td[informid] {
+            width: auto;
+        }
+        td {
+            width: 1%;
         }
     }
 

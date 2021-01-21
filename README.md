@@ -1,6 +1,6 @@
 # FHEM Style: haus-automatisierung.com
 
-Version: 2.18 | [CHANGELOG](CHANGED) | [CONTRIBUTE](CONTRIBUTE.md) | [LICENSE](LICENSE)
+Version: 2.20 | [CHANGELOG](CHANGED) | [CONTRIBUTE](CONTRIBUTE.md) | [LICENSE](LICENSE)
 
 **Dies ist eine angepasste Version.**
 

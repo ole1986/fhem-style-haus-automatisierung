@@ -160,6 +160,10 @@ select {
   color: unset;
 }
 
+body > form {
+  flex-grow: 1;
+}
+
 #content {
   margin-left: 1em;
   margin-right: 1em;
@@ -209,9 +213,15 @@ select {
   vertical-align: middle;
 }
 #content .roomoverview td.first-table-column {
-  /*width: 25%;*/
+  width: 25%;
   border-right: 2px #e56524 solid;
   line-height: 29px;
+}
+#content .roomoverview td[informid] {
+  width: auto;
+}
+#content .roomoverview td {
+  width: 1%;
 }
 #content .modCmdinput[type=submit] {
   border: 1px #e56524 solid;
@@ -1239,8 +1249,7 @@ textarea#console {
 }
 @media (min-width: 799px) {
   #menuScrollArea {
-    max-width: 350px;
-    width: 100%;
+    /*max-width: 20%;*/
   }
 }
 #haToolbar {
