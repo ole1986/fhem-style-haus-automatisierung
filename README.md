@@ -1,6 +1,6 @@
 # FHEM Style: haus-automatisierung.com
 
-Version: 2.18 | [CHANGELOG](CHANGED) | [CONTRIBUTE](CONTRIBUTE.md) | [LICENSE](LICENSE)
+Version: 2.20 | [CHANGELOG](CHANGED) | [CONTRIBUTE](CONTRIBUTE.md) | [LICENSE](LICENSE)
 
 **Dies ist eine angepasste Version.**
 
@@ -12,7 +12,7 @@ Version: 2.18 | [CHANGELOG](CHANGED) | [CONTRIBUTE](CONTRIBUTE.md) | [LICENSE](L
 1. Hinzufügen des Themes
 
 ```
-update add https://raw.githubusercontent.com/ole1986/fhem-style-haus-automatisierung/master/controls_ha_theme.txt
+update add https://raw.githubusercontent.com/ole1986/fhem-style-haus-automatisierung/master/controls_ha_theme_ole1986.txt
 update check ha_theme
 update all ha_theme
 ```

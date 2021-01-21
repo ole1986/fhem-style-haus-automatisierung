@@ -160,6 +160,10 @@ select {
   color: unset;
 }
 
+body > form {
+  flex-grow: 1;
+}
+
 #content {
   margin-left: 1em;
   margin-right: 1em;
@@ -196,6 +200,7 @@ select {
   background: #000;
   padding: 10px;
   white-space: pre-line;
+  word-break: break-word;
 }
 #content > pre {
   background: #fff;
@@ -209,9 +214,15 @@ select {
   vertical-align: middle;
 }
 #content .roomoverview td.first-table-column {
-  /*width: 25%;*/
+  width: 25%;
   border-right: 2px #e56524 solid;
   line-height: 29px;
+}
+#content .roomoverview td[informid] {
+  width: auto;
+}
+#content .roomoverview td {
+  width: 1%;
 }
 #content .modCmdinput[type=submit] {
   border: 1px #e56524 solid;
@@ -1185,6 +1196,7 @@ textarea#console {
 }
 #menu table.room .menu_Save_config {
   font-weight: bold;
+  position: relative;
 }
 #menu table.room .custom-menu-entry {
   color: #e56524;
@@ -1199,12 +1211,13 @@ textarea#console {
   top: 7px;
 }
 #menu table.room #saveCheck {
-  margin-top: -33px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   background: transparent;
   border-right: 5px #e56524 solid;
   border-left: 5px #e56524 solid;
   text-indent: -9999px;
-  margin-left: 220px;
 }
 #menu table.room tr.sel a {
   background: #e56524;
@@ -1239,8 +1252,7 @@ textarea#console {
 }
 @media (min-width: 799px) {
   #menuScrollArea {
-    max-width: 350px;
-    width: 100%;
+    min-width: 300px;
   }
 }
 #haToolbar {
