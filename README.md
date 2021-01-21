@@ -13,8 +13,8 @@ Version: 2.20 | [CHANGELOG](CHANGED) | [CONTRIBUTE](CONTRIBUTE.md) | [LICENSE](L
 
 ```
 update add https://raw.githubusercontent.com/ole1986/fhem-style-haus-automatisierung/master/controls_ha_theme_ole1986.txt
-update check ha_theme
-update all ha_theme
+update check ha_theme_ole1986
+update all ha_theme_ole1986
 ```
 
 2. Select Style -> hausautomatisierung_com
