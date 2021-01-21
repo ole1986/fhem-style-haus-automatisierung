@@ -1,6 +1,9 @@
 CHANGELOG
 ----------------------
 [2021-01-21]
+ * Updated css
+ * wrap everything when opening file log
+ * Fixed save check button position
  * Amended group size and fill content area
 
 [2021-01-01]

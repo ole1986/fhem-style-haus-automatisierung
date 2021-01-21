@@ -14,7 +14,7 @@ UPD 2020-12-25_17:48:50 6623 www/images/hausautomatisierung_com/weather.svg
 UPD 2021-01-21_09:08:47 10261 www/pgm2/hausautomatisierung_com.js
 UPD 2021-01-01_10:13:20 5560 www/pgm2/hausautomatisierung_comfloorplanstyle.css
 UPD 2020-12-29_08:37:48 4401 www/pgm2/hausautomatisierung_comsvg_style.css
-UPD 2021-01-21_09:02:51 37771 www/pgm2/hausautomatisierung_comstyle.css
+UPD 2021-01-21_10:13:00 37822 www/pgm2/hausautomatisierung_comstyle.css
 UPD 2020-12-25_17:48:57 2996 www/pgm2/hausautomatisierung_comsvg_defs.svg
 UPD 2020-12-25_17:48:49 81828 www/hausautomatisierung-com/images/bg_wrapper.jpg
 UPD 2020-12-25_17:48:49 20144 www/hausautomatisierung-com/images/haus_automatisierung.png
